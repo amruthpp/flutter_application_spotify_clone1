@@ -19,7 +19,7 @@ class _HomeViewState extends State<HomeView> {
         children: [
           Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height * .4,
+            height: MediaQuery.of(context).size.height  ,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
